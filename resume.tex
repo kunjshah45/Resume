@@ -24,7 +24,7 @@
 \renewcommand{\footrulewidth}{0pt}
 
 % Adjust margins
-\addtolength{\oddsidemargin}{-0.375in}
+\addtolength{\oddsidemargin}{-0.475in}
 \addtolength{\evensidemargin}{-0.375in}
 \addtolength{\textwidth}{1in}
 \addtolength{\topmargin}{-.5in}
@@ -44,7 +44,7 @@
 %-------------------------
 % Custom commands
 \newcommand{\resumeItem}[2]{
-  \item\small{
+  \item\medium{
     \textbf{#1}{ #2 \vspace{-2pt}}
   }
 }
@@ -66,6 +66,8 @@
 \newcommand{\resumeItemListStart}{\begin{itemize}}
 \newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
 
+
+
 %-------------------------------------------
 %%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -74,8 +76,8 @@
 
 %----------HEADING-----------------
 \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
-  \textbf{\href{}{\Large Kunj Shah}} & Email : \href{mailto:kunjshah45@gmail.com}{kunjshah45@gmail.com}\\
-  \text{706,Venkatesh kunj,Bhayandar west} & Mobile : +91-7021427242 \\
+  \textbf{\Large Kunj Shah} & Email : \href{mailto:kunjshah45@gmail.com}{kunjshah45@gmail.com}\\
+  \textit{}{706,Venkatesh Kunj,Bhayandar(W)} & {Mobile : +91-7021427242}
 \end{tabular*}
 
 
@@ -84,7 +86,7 @@
   \resumeSubHeadingListStart
     \resumeSubheading
       {MIT Art, Design and Technology School of Engineering }{Pune, India}
-      {Bachelor in Computer Science;  GPA: 6.93 current}{Aug. 2017 - Present}
+      {Bachelor in Computer Science;  GPA: 6.93 current}{Aug. 2017 - June 2020}
     \resumeSubheading
       {SVKM's Shri Bhagubhai Mafatlal Polytechnic}{Mumbai, India}
       {Diploma in Computer Science Engineering; Percentage 82 }{Aug. 2014 - July. 2017}
@@ -95,50 +97,67 @@
 
 
 %-----------Career Objective-----------------
-\section{Career Objective}
-        \resumeItem{}
-          {Always ready to take up challenges and love to learn about the latest trends. Would be more then happy to be a part of progressive organization that gives a scope to enhance my knowledge and utilizing my skills towards the growth of the organization and personal skills. Machine Learning practitioner.}
+%\section{Career Objective}
+        % \resumeItem{}
+        %   {Always ready to take up challenges and love to learn about the latest trends. Would be more then happy to be a part of progressive organization that gives a scope to enhance my knowledge and utilizing my skills towards the growth of the organization and personal skills. Machine Learning practitioner.}
           
-        \resumeItemListEnd
-
+        % \resumeItemListEnd
 
 %-----------EXPERIENCE-----------------
-\section{Project}
+\section{TECHNICAL EXPERIENCE}
   \resumeSubHeadingListStart
-        \resumeItem{Automated Guided Vehicle on ROS (Jan 2020 – Mar 2020)}
-            {Industrial Automated guided vehicle build on ros and python.}
-        \resumeItem{Registration for Game Events (Feb 2019 – Mar 2019)}
-          {App for gamers to register in gaming events. Java for app development. Flask for Admin Panel which enables admin to perform various necessary tasks.}
-        \resumeItem{MIT ADTU Persona Fest 2019 Events(Jan - 2019)}
-          {Students can register for events in Persona Fest 2019. Java for android app, with Flask handling the admin panel for various operations.}
-          \resumeItem{Smart Parking}
-          {Android Application is user for scanning QR. For identifying available slots Image processing is used.}
-          \resumeItem{Billing Software(GST)(2016-17).}
-          {Billing software handles stock management,CRM ,adding products,taking backups, notifying for the overdue bills,giving statics,generation of bills, etc. Billing Software use of PHP, MySQL, Ajax, Javascripts, etc is done.}
-        \resumeItem{Seat booking Portal (Raj Kapoor Film Club) (2017-18)}
-          {Admin can post event and it will be visible to all the students. Students on the other hand can view the event and book their seat for events. Python's Django Framework is used for creating the site,along with other techniques.}
-         \resumeItem{Email Marketing (2016-17)}
-          {Diploma Project. Email marketing web-portal for sending emails to the user based on their interest.We used php and mysql for developing this site.}
+        \resumeItem{ Backend Intern - GeekWork [December,2019 - March, 2020] }{}
+            \resumeItemListStart{}
+                \resumeItem{}
+                  {Worked on ROS, Majorly contributed in developing movement of AGV, collision avoidance.}
+                \resumeItem{}
+                    {Integrated API's such as Onedrive, Google Drive, Slack for client.}
+                \resumeItem{}
+                    {Learnt fetching data and files from clouds, process them through Tika before storing it in Elastic Search.}
+            \resumeItemListEnd
+    \resumeSubHeadingListEnd
+
+%-----------EXPERIENCE-----------------
+\section{PROJECTS}
+  \resumeSubHeadingListStart
+        \resumeItem{Nibodh - Portal for searching schools [Flask Micro-Framework, MongoDb Database] (March, 2020 – May, 2020)}
+            { Platform where parents can to search best fit for their children. While developing this i become proficient in Flask, MongoDB. Indexing is implemented for quick results while searching schools. }
+            
+        \resumeItem{Automated Guided Vehicle [ROS, Flask Micro-Framework, MySQL Database] (January, 2020 – March 2020)}
+            {Industrial Automated guided vehicle build on ROS and python for industrial operations. I gained knowledge about ROS fundamentals, publisher - subscriber model, sockets. }
+       
+        \resumeItem{College Fest Events [Android Studio, MongoDB, Flask Micro-Framework]: (January, 2019)}
+          {Students can register for events in Persona Fest 2019, received notification update about events. Java for android app, with Flask handling the admin panel for various operations.}
+        
+        \resumeItem{Seat booking Portal [Django Framework, MySQL Database]: (2018, June - 2018, August)}
+          {College Auditorium portal. Admin can post event and it will be visible to all the students. Students on the other hand can view the event and book their seat for events and download the ticket in PDF format. Python's Django Framework is used for creating the web. I acquired knowledge about Django's fundamentals and features}
+        
+        \resumeItem{Billing Software(GST) [PHP, MySQL Database] (March, 2016 - July, 2017).}
+          {Billing software handles stock management, Bill generation, CRM, adding products, taking backups, notifying for the overdue bills, giving statics, generation of bills, etc. I learned PHP, MySQL, Ajax, Javascript extensively while developing this web app. }
           
       \resumeItemListEnd
 
 
 
 %-----------Skills-----------------
-\section{Skills}
+\section{SKILLS}
   \resumeSubHeadingListStart
-    \resumeSubItem{Expertise}
-      {C++, C, Python, Php, Django Framework, Databases MySQL, MongoDB. Bootstrap, HTML5, CSS.}
+    \resumeSubItem{}
+      {C++, Python, Django, Flask, Nodejs, React Native, MySQL, MongoDB.}
     \resumeSubItem{Worked With}
-      {ROS, Android Studio, Assembly Language, Arduino Board, Web Development, AJAX, JQUERY, Git}
+      {ROS, Android Studio, Arduino Board, Web Development, AJAX, JQUERY}
   \resumeSubHeadingListEnd
   
  %--------------Extracurricular activities--------------
 \section{Extracurricular activities}
   \resumeSubHeadingListStart
+    \resumeSubItem{Open Search Contribution :}
+        \resumeItemListStart
+            \resumeItem{}
+                {india-location-details - NPM package to find details of Indian regions by Pincode, City, State.}
+        \resumeItemListEnd
     \resumeSubItem{Participated :}{1st runner up Codefest's Haxplore by IIT-BHU, 2nd runner up AISSMS hackathon, 2nd runner up KJSCE HACK, Rajasthan 5.0, iHack}
-    \resumeSubItem{Certification Courses :}{Devops, Software Testing}
-    \resumeSubItem{}{Learning Machine learning on fast.ai}
+    \resumeSubItem{Certification Courses :}{MongoDB, Devops}
   \resumeSubHeadingListEnd
   
 
@@ -147,7 +166,6 @@
   \resumeSubHeadingListStart
     \resumeSubItem{}{Organizer of Code Break 1.0, Hosted on Devfolio.}
     \resumeSubItem{}{Student Organizer of all CSE-IT events held in Persona Fest 2019.}
-    \resumeSubItem{}{Helped in developing problem statements for Smart University Hackathon at Persona 2018.}
     \resumeSubItem{}{Student Head of Sponsorship team for Persona Fest 2018.}
   \resumeSubHeadingListEnd
 
